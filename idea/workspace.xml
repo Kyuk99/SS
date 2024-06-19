@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e867fc63-aa5a-4296-9fdc-e9756836a452" name="Changes" comment="feat : 5.31 commit&#10;- js css&#10;- 폼 title 변경해야함">
+      <change afterPath="$PROJECT_DIR$/album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ksh/soundstory/controllers/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ksh/soundstory/dtos/SearchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ksh/soundstory/mappers/SearchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ksh/soundstory/services/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/SearchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scripts/index.album.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scripts/index.search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.serach.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ksh/soundstory/entites/ArtistEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ksh/soundstory/entites/ArtistEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.album.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.album.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.album.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.album.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.album.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.album.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.recoverDialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.recoverDialog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/index/loginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/index/loginForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index/album.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Mybatis Mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="test1" />
+                    <option name="lastUsedInstant" value="1717135299" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1717135298" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hDgcwwFcGVpVXCPUQfYq0xQbmp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SoundStoryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/JAVA/SoundStory(김영욱)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mappers" />
+      <recent name="C:\Users\Administrator\Desktop\국비 김성환\SoundStory-\SoundStory\src\main\resources\static\assets\styles" />
+      <recent name="C:\Users\Administrator\Desktop\국비 김성환\SoundStory-\SoundStory\src\main\resources\templates\fragments\index" />
+      <recent name="C:\Users\Administrator\Desktop\국비 김성환\SoundStory-\SoundStory\src\main\resources\static\assets\images" />
+      <recent name="C:\Users\Administrator\Desktop\국비 김성환\SoundStory-\SoundStory\src\main\resources\static\assets\scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mappers" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/assets/images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ksh.soundstory.controllers" />
+      <recent name="com.ksh.soundstory.mappers" />
+      <recent name="com.ksh.soundstory.services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SoundStoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SoundStory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ksh.soundstory.SoundStoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e867fc63-aa5a-4296-9fdc-e9756836a452" name="Changes" comment="" />
+      <created>1717134148644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717134148644</updated>
+      <workItem from="1717134149754" duration="8145000" />
+      <workItem from="1717391740058" duration="1649000" />
+      <workItem from="1717395406529" duration="3936000" />
+      <workItem from="1717402145512" duration="463000" />
+      <workItem from="1718178219692" duration="55000" />
+      <workItem from="1718178286844" duration="60000" />
+      <workItem from="1718178428667" duration="551000" />
+      <workItem from="1718178995104" duration="11000" />
+      <workItem from="1718179019161" duration="28000" />
+      <workItem from="1718179048442" duration="22000" />
+      <workItem from="1718179089293" duration="82000" />
+      <workItem from="1718179191051" duration="12000" />
+      <workItem from="1718179357641" duration="65000" />
+      <workItem from="1718179573948" duration="112000" />
+      <workItem from="1718180913767" duration="882000" />
+      <workItem from="1718181844288" duration="3754000" />
+      <workItem from="1718185611181" duration="8000" />
+      <workItem from="1718343098629" duration="10883000" />
+      <workItem from="1718356188375" duration="5000" />
+      <workItem from="1718356220845" duration="340000" />
+      <workItem from="1718604648550" duration="4788000" />
+      <workItem from="1718687088415" duration="12348000" />
+      <workItem from="1718703497642" duration="419000" />
+      <workItem from="1718774125618" duration="4061000" />
+      <workItem from="1718780944871" duration="763000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat : first commit&#10;- layout 변경됨">
+      <option name="closed" value="true" />
+      <created>1717135358053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717135358053</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat : 5.31 commit&#10;- js css&#10;- 폼 title 변경해야함">
+      <option name="closed" value="true" />
+      <created>1717142560098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717142560098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat : first commit&#10;- layout 변경됨" />
+    <MESSAGE value="feat : 5.31 commit&#10;- js css&#10;- 폼 title 변경해야함" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 5.31 commit&#10;- js css&#10;- 폼 title 변경해야함" />
+  </component>
+</project>
