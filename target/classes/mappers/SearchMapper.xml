@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ksh.soundstory.mappers.SearchMapper">
+    <select id="selectArtistBySearch"
+            parameterType="com.ksh.soundstory.dtos.SearchDto"
+            resultType="com.ksh.soundstory.entites.ArticleEntity">
+        SELECT `artist`.`artist_id` AS `artistId`,
+               `artist`.`name` AS `name`
+        FROM `ss`.`artist`
+        <where>
+            <if test="by != null and by == 'name'">
+                AND `artist`.`name` LIKE CONCAT('%', #{keyword}, '%')
+            </if>
+        </where>
+    </select>
+</mapper>
